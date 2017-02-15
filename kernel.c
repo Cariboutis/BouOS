@@ -32,7 +32,7 @@ size_t strlen(const char* str)
 enum
 {
     // The GPIO registers base address.
-    GPIO_BASE = 0x20200000, // 0x3F200000 for raspi2 and raspi3
+    GPIO_BASE = 0x3F200000, // 0x3F200000 for raspi2 and raspi3
  
     // The offsets for reach register.
  
@@ -43,7 +43,7 @@ enum
     GPPUDCLK0 = (GPIO_BASE + 0x98),
  
     // The base address for UART.
-    UART0_BASE = 0x20201000, // 0x3F201000 for raspi 2 and raspi3
+    UART0_BASE = 0x3F201000, // 0x3F201000 for raspi 2 and raspi3
  
     // The offsets for reach register for the UART.
     UART0_DR     = (UART0_BASE + 0x00),
